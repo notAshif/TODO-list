@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rock+3D&family=Vast+Shadow&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body, html{
+    display: flex;
+    height: 100vh;
+    background: #06283D;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #F7F7F7;
+    padding: 30px;
+    border-radius: 17px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.container .content h1{
+    font-size: 4em; 
+}
+
+.container .content i{
+    font-size: 2em;
+}
+
+.input-box input{
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid #06283D;
+    font-size: 1.5em;
+    padding-left: 10px;
+} 
+
+.input-box input::placeholder{
+    color: #06283D;
+}
+
+.input-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color: #06283D;
+    background: #dff6ff;
+    border-radius: 50%;
+    font-size: 22px;
+    transition: 0.4s ease;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+.input-box button:hover{
+    color: #fff;
+    background: #06283D;
+}
+
+.input-box i{
+    color: lightgreen;
+    font-size: 30px;
+}
+
+
+.input-box p{
+    font-size: 1.5em;
+    color: lightgreen;
+    padding-left: 40%;
+}
+.todocontainer {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+ 
+}
